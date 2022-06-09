@@ -1,0 +1,37 @@
+
+.profile{
+    display: inline-block
+}
+
+.profile-link{
+    text-decoration: none;
+}
+
+li.profile:not(:last-child) {
+    margin: 0 4vw 0 0;
+}
+
+.profile-icon{
+    min-height: 84px;
+    min-width: 84px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border: 0.2em solid rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+    background-color: #333;
+    border-radius: 15px;
+}
+
+.profile-icon:hover{
+    border: 0.2em solid rgb(187, 32, 32);
+    color:#fff
+}
+
+.profile-name{
+    display:block;
+    font-size: 14px;
+    color:#fdfdfd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: .6em 0;
+}
+

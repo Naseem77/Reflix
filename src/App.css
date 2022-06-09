@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+*{
+  color:#fff;
+}
+
+#app-background{
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.wallpapersafari.com/desktop/1024/576/43/99/cfrqeR.png");
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+
+.header{
+  background-color:rgba(0, 0, 0,0.6);
+  height: 40px;
+  padding: 10px;
+  border-bottom: 10px;
+}
+
+#main-links{
+  padding: 10px;
+  display: inline-block;
+}
+
+.header-link{
+  padding-right: 0.5em;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+#user-icon{
+  background-size: cover;
+  position: relative;
+  width: 33px;
+  height: 30px;
+  float: right;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#user-icon:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#user-icon-link{
+  position: absolute;
+  padding-top: 10px;
+}
+
+#logo{
+  float: right;
+  color: rgb(238, 68, 68);
+  padding: 10px;
+  margin-right: 10px;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

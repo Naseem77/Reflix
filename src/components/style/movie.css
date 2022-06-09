@@ -1,0 +1,30 @@
+.movie{
+    background-color: #ffffff;
+    padding: 7px;
+    border-radius: 1px;
+    border: 0.13em solid #1d1c1c;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    min-height: 130px;
+    max-width: 120px;
+    border-radius: 10px;
+}
+
+.movie:hover{
+    border: 0.13em solid #fff;
+}
+
+.plus{
+    float:right;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.minus{
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}

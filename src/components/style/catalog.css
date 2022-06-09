@@ -1,0 +1,56 @@
+.movies-container{
+    padding-top: 20px;
+}
+
+#rented-container{
+    padding-top: 30px;
+}
+
+#rent-message{
+    position:absolute;
+    right: 50px;
+    padding: 7px;
+    background-color: rgb(37, 36, 36,0.4);
+    z-index: 1;
+    top: 100px;
+    animation: slide-up 0.5s ease-out;
+    border-radius: 5px;
+    font-family:'Arial Narrow Bold';
+}
+
+#budget-message{
+    position:absolute;
+    right: 50px;
+    padding: 7px;
+    background-color: rgb(37, 36, 36,0.4);
+    z-index: 1;
+    top: 140px;
+    animation: slide-up 0.5s ease-out;
+    border-radius: 5px;
+    font-family:'Arial Narrow Bold';
+}
+
+.movies-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+.box-label{
+    display: inline-block;
+    color: #ffff;
+    margin-left: 30px;
+    font-family: fantasy;
+}
+
+@keyframes slide-up {
+    100% {
+        opacity:1;
+        transform: translateY(0);
+    }
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}

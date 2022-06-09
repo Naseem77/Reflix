@@ -1,0 +1,15 @@
+.search-bar{
+    display: inline-block;
+    background-color: rgb(255, 254, 254);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 7px 15px;
+    color: black;
+    margin-left: 20px;
+     border-radius: 10px;
+    width: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font: bold;
+    margin-top: 15px;
+}
